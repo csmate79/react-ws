@@ -18,7 +18,7 @@ export default function Cart({ cart }) {
     event.preventDefault();
 
     const lineItems = cart.map((product) => {
-      return { price: product.price_id, quantity: product.quantity };
+      return { price: "price_1NPhLhKV1mlAVpN2sehJibqm", quantity: product.quantity };
     });
 
     stripeLoadedPromise.then((stripe) => {
